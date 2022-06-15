@@ -1,8 +1,9 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/me.png'
+import ME from '../../assets/My_Profile1.png'
 import HeaderSocial from './HeaderSocial'
+import {Typewriter} from "react-simple-typewriter";
 
 const Header = () => {
   return (
@@ -10,7 +11,17 @@ const Header = () => {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Badrul Amin</h1>
-        <h5 className="text-light">Software Engineering</h5>
+        <span style={{color: '#ffffff99', fontWeight:'bold'}}>
+          <Typewriter
+            loop={5}
+            cursor
+            cursorStyle="_"
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+            words={["Software Engineering", "Web Developer", "Android Developer"]}
+          />
+        </span>
 
         <CTA/>
         <HeaderSocial/>
