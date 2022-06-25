@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    column-gap: 1rem;
 }
 
 .skills__header:not(:last-child) {
@@ -75,8 +76,8 @@
 
 .skills__number {
     display: block;
-    color: var(--skin-color);
-    font-weight: var(--font-bold);
+    color: var(--color-white);
+    font-size: var(--smaller-font-size);
 }
 
 .skills__bar {

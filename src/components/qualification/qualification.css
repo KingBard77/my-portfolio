@@ -57,6 +57,10 @@
         transition: .3s;
     }
     
+    .circle__dot:hover {
+        background-color: var(--box-color);
+    }
+    
     .timeline__item:hover.circle__dot {
         background-color: var(--color-white);
     }

@@ -3,11 +3,11 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
+import IMG4 from '../../assets/portfolio4.jpg'
 import {AiOutlineClose} from 'react-icons/ai'
 import {BiChevronRight} from 'react-icons/bi'
 import {AiFillYoutube} from 'react-icons/ai'
 import {AiFillGithub} from 'react-icons/ai'
-import {BiBullseye} from 'react-icons/bi'
 
 const data=[
   {
@@ -43,6 +43,18 @@ const data=[
     created: '21 Apr 2021',
     language: 'Python',
     role: 'Frontend, Backend',
+    github: 'https://github.com',
+    youtube:'https://youtu.be/4SS0CmGLLi0' 
+  },
+  {
+    id: 4,
+    datatarget: 'design',
+    image:IMG4,
+    title:'My Portfolio Website',
+    description: 'Web-System about myself that I can share my portfolio and my skills and experience.',
+    created: '23 June 2022',
+    language: 'React, JavaScript, HTML, CSS',
+    role: 'Frontend',
     github: 'https://github.com',
     youtube:'https://youtu.be/4SS0CmGLLi0' 
   }

@@ -18,7 +18,7 @@ const abilities = () => {
               <BiCodeCurly className='skills__icon'/>
               <div>
                 <h3 className='skills__title'>Frontend Developer</h3>
-                <span className='skills__subtitle'>More than 4 years</span>
+                <span className='skills__subtitle'>5+ Years Experience</span>
               </div>
 
               <BiDownArrow className='skills__arrow'/>
@@ -28,7 +28,7 @@ const abilities = () => {
               <HiOutlineColorSwatch className='skills__icon'/>
               <div>
                 <h3 className='skills__title'>UI / UX Design</h3>
-                <span className='skills__subtitle'>More than 5 years</span>
+                <span className='skills__subtitle'>2+ Years Experience</span>
               </div>
 
               <BiDownArrow className='skills__arrow'/>
@@ -38,7 +38,7 @@ const abilities = () => {
               <HiOutlineDatabase className='skills__icon'/>
               <div>
                 <h3 className='skills__title'>Backend Developer</h3>
-                <span className='skills__subtitle'>More than 2 years</span>
+                <span className='skills__subtitle'>3+ Years Experience</span>
               </div>
               <BiDownArrow className='skills__arrow'/>
             </div>
@@ -50,44 +50,44 @@ const abilities = () => {
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className='skills__name'>HTML</h3>
-                    <span className='skills__number'>95%</span>
+                    <span className='skills__number'>Expert</span>
                   </div>
 
                   <div className="skills__bar">
-                    <span className='skills__percentage' style={{width: '95%'}}></span>
+                    <span className='skills__percentage' style={{width: '100%'}}></span>
                   </div>
                 </div>
 
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className='skills__name'>CSS</h3>
-                    <span className='skills__number'>85%</span>
+                    <span className='skills__number'>Expert</span>
                   </div>
 
                   <div className="skills__bar">
-                    <span className='skills__percentage' style={{width: '85%'}}></span>
+                    <span className='skills__percentage' style={{width: '100%'}}></span>
                   </div>
                 </div>
 
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className='skills__name'>JavaScript</h3>
-                    <span className='skills__number'>95%</span>
+                    <span className='skills__number'>Intermediate</span>
                   </div>
 
                   <div className="skills__bar">
-                    <span className='skills__percentage' style={{width: '95%'}}></span>
+                    <span className='skills__percentage' style={{width: '50%'}}></span>
                   </div>
                 </div>
 
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className='skills__name'>React</h3>
-                    <span className='skills__number'>95%</span>
+                    <span className='skills__number'>Intermediate</span>
                   </div>
 
                   <div className="skills__bar">
-                    <span className='skills__percentage' style={{width: '95%'}}></span>
+                    <span className='skills__percentage' style={{width: '50%'}}></span>
                   </div>
                 </div>
               </div>
@@ -98,21 +98,33 @@ const abilities = () => {
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className='skills__name'>Figma</h3>
-                    <span className='skills__number'>95%</span>
+                    <span className='skills__number'>Beginner</span>
+                  </div>
+
+                  <div className="skills__bar">
+                    <span className='skills__percentage' style={{width: '25%'}}></span>
                   </div>
                 </div>
 
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className='skills__name'>Sketch</h3>
-                    <span className='skills__number'>85%</span>
+                    <span className='skills__number'>Beginner</span>
+                  </div>
+
+                  <div className="skills__bar">
+                    <span className='skills__percentage' style={{width: '25%'}}></span>
                   </div>
                 </div>
 
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className='skills__name'>Photoshop</h3>
-                    <span className='skills__number'>95%</span>
+                    <span className='skills__number'>Intermediate%</span>
+                  </div>
+                  
+                  <div className="skills__bar">
+                    <span className='skills__percentage' style={{width: '50%'}}></span>
                   </div>
                 </div>
               </div>
@@ -123,21 +135,33 @@ const abilities = () => {
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className='skills__name'>PHP</h3>
-                    <span className='skills__number'>95%</span>
+                    <span className='skills__number'>Expert</span>
+                  </div>
+
+                  <div className="skills__bar">
+                    <span className='skills__percentage' style={{width: '100%'}}></span>
                   </div>
                 </div>
 
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className='skills__name'>MySQL</h3>
-                    <span className='skills__number'>85%</span>
+                    <span className='skills__number'>Intermediate</span>
+                  </div>
+
+                  <div className="skills__bar">
+                    <span className='skills__percentage' style={{width: '50%'}}></span>
                   </div>
                 </div>
 
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className='skills__name'>JavaScript</h3>
-                    <span className='skills__number'>95%</span>
+                    <span className='skills__number'>Intermediate</span>
+                  </div>
+
+                  <div className="skills__bar">
+                    <span className='skills__percentage' style={{width: '50%'}}></span>
                   </div>
                 </div>
               </div>

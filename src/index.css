@@ -133,12 +133,13 @@
     .btn-primary {
         background: var(--skin-color);
         color: var(--color-white);
+        font-size: 0.9rem;
     }
     
     .btn-primary:hover {
         background: var(--color-white);
         border-color: transparent;
-        color: var(--color-bg)
+        color: var(--color-bg);
     }
     
     img {

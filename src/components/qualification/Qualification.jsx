@@ -6,7 +6,7 @@ import {BsFillBriefcaseFill} from 'react-icons/bs'
 
 const Experience = () => {
   return (
-    <section id='experience'>
+    <section id='qualification'>
       <h5>
         My Journey
       </h5>
