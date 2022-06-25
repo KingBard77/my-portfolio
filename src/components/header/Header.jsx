@@ -9,19 +9,20 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Badrul Amin</h1>
-        <span style={{color: '#ffffff99', fontWeight:'bold'}}>
-          <Typewriter
-            loop={5}
-            cursor
-            cursorStyle="_"
-            typeSpeed={70}
-            deleteSpeed={50}
-            delaySpeed={1000}
-            words={["Software Engineering", "Web Developer", "Android Developer"]}
-          />
-        </span>
+          <h5 className="home__title">Hello I'm Badrul Amin</h5>
+          <h1 className="home__subtitle">I'm a Web Developer</h1>
+          <span style={{color: '#ffffff99', fontWeight:'bold'}}>
+            <Typewriter
+              loop={5}
+              cursor
+              cursorStyle="_"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+              words={["Software Engineering", "Web Developer", "Android Developer"]}
+            />
+          </span>
+
 
         <CTA/>
         <HeaderSocial/>

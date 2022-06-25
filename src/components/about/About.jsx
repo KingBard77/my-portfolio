@@ -4,6 +4,7 @@ import ME from '../../assets/My_Profile3.jpeg'
 import {FaAward} from 'react-icons/fa'
 import {FiUser} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import {BiSupport} from 'react-icons/bi'
 
 const About = () => {
   return (
@@ -27,20 +28,20 @@ const About = () => {
             </article>
 
             <article className='about__card'>
-              <FiUser className='about__icon'/>
-              <h5>Clients</h5>
-              <small>200+ Local</small>
-            </article>
-
-            <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
               <small>80+ Completed</small>
             </article>
+
+            <article className='about__card'>
+              <BiSupport className='about__icon'/>
+              <h5>Support</h5>
+              <small>Online 24/7</small>
+            </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos possimus blanditiis non exercitationem inventore incidunt? Nostrum impedit quasi rerum ipsum adipisci libero pariatur obcaecati odio architecto suscipit, exercitationem consequatur atque!
+          Seasoned, forward-looking Software Engineer with 7+ years' background studies in creating and executing innovative software solutions to enhance business productivity. Highly experienced in all aspects of the software development lifecycle and end-to-end project management, from concept through to development and delivery. I am experienced programming seeking a full-time position in the field of Softwere Engineer, where be able to use the ability and skills I have to support the organization for a company's future growth.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>

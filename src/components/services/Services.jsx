@@ -1,6 +1,6 @@
 import React from 'react'
 import './services.css'
-import {BiCheck} from 'react-icons/bi'
+import {IoMdCheckmarkCircleOutline} from 'react-icons/io'
 
 const Services = () => {
   return (
@@ -16,19 +16,19 @@ const Services = () => {
 
           <ul className='service__list'>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <IoMdCheckmarkCircleOutline className='service__list-icon'/>
               <p>lorem ipsum dolor sit amer consecture elit</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <IoMdCheckmarkCircleOutline className='service__list-icon'/>
               <p>lorem ipsum dolor sit amer consecture elit</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <IoMdCheckmarkCircleOutline className='service__list-icon'/>
               <p>lorem ipsum dolor sit amer consecture elit</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <IoMdCheckmarkCircleOutline className='service__list-icon'/>
               <p>lorem ipsum dolor sit amer consecture elit</p>
             </li>
           </ul>
@@ -42,19 +42,19 @@ const Services = () => {
 
           <ul className='service__list'>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <IoMdCheckmarkCircleOutline className='service__list-icon'/>
               <p>lorem ipsum dolor sit amer consecture elit</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <IoMdCheckmarkCircleOutline className='service__list-icon'/>
               <p>lorem ipsum dolor sit amer consecture elit</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <IoMdCheckmarkCircleOutline className='service__list-icon'/>
               <p>lorem ipsum dolor sit amer consecture elit</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <IoMdCheckmarkCircleOutline className='service__list-icon'/>
               <p>lorem ipsum dolor sit amer consecture elit</p>
             </li>
           </ul>
@@ -68,19 +68,19 @@ const Services = () => {
 
           <ul className='service__list'>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <IoMdCheckmarkCircleOutline className='service__list-icon'/>
               <p>lorem ipsum dolor sit amer consecture elit</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <IoMdCheckmarkCircleOutline className='service__list-icon'/>
               <p>lorem ipsum dolor sit amer consecture elit</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <IoMdCheckmarkCircleOutline className='service__list-icon'/>
               <p>lorem ipsum dolor sit amer consecture elit</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
+              <IoMdCheckmarkCircleOutline className='service__list-icon'/>
               <p>lorem ipsum dolor sit amer consecture elit</p>
             </li>
           </ul>
