@@ -120,8 +120,10 @@
         padding: 0.75rem 1.2rem;
         border-radius: 0.4rem;
         cursor: pointer;
+        font-weight: var(--font-medium);
         border: 1px solid var(--skin-color);
         transition: var(--transition);
+        z-index: 1;
     }
     
     .btn:hover {
@@ -137,9 +139,9 @@
     }
     
     .btn-primary:hover {
-        background: var(--color-white);
-        border-color: transparent;
-        color: var(--color-bg);
+        background: transparent;
+        border-color: var(--skin-color);
+        color: var(--color-white);
     }
     
     img {

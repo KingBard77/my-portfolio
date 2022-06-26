@@ -8,6 +8,10 @@ import {AiOutlineClose} from 'react-icons/ai'
 import {BiChevronRight} from 'react-icons/bi'
 import {AiFillYoutube} from 'react-icons/ai'
 import {AiFillGithub} from 'react-icons/ai'
+import {useEffect} from 'react';
+import mixitup from 'mixitup'
+
+
 
 const data=[
   {
@@ -75,7 +79,7 @@ const Portfolio = () => {
         {
           data.map(({id, image, title, description, created, language, role, github, youtube}) => {
             return(
-            <article key={id} className='portfolio__item mix{datatarget}'>
+            <article key={id} className='portfolio__item mix {datatarget}'>
               <div className="portfolio__item-image">
                 <img src={image} alt={title}/>
               </div>
@@ -96,7 +100,7 @@ const Portfolio = () => {
               </div>
             </article>
             )
-        })
+          })
         } 
       </div>
 

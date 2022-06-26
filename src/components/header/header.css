@@ -11,6 +11,15 @@ header {
     position: relative;
 }
 
+.header__data {
+    display: inline-block;
+    column-gap: 1.8rem;
+    position: relative;
+    top: 30%;
+    left: 8%;
+    bottom: 1.8rem;
+}
+
 .home__title {
     font-size: var(--biggest-font-size);
 }
@@ -68,10 +77,10 @@ header {
 }
 
 
-/* ========== ME ========== 
+/* ========== ME ========== */
 
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
+    background: linear-gradient(var(--box-color), transparent);
     width: 22rem;
     height: 30rem;
     position: absolute;
@@ -80,8 +89,8 @@ header {
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem;
+    display: none;
 }
-*/
 
 
 /* ========== SCROLL DOWN ========== */
@@ -91,8 +100,23 @@ header {
     right: -2.3rem;
     bottom: 5rem;
     transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--color-white);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    column-gap: .25rem;
+    cursor: pointer;
+}
+
+.scroll__down-icon {
+    font-size: 1rem;
+    transition: .3s;
+    color: var(--skin-color);
+}
+
+.scroll__down-icon:hover {
+    transform: translateX(.25rem)
 }
 
 
@@ -110,6 +134,13 @@ header {
 @media screen and (max-width: 600px) {
     .header {
         height: 100%;
+        background: none;
+        align-items: initial;
+        padding: 7rem 0 2rem;
+    }
+    .me {
+        width: 200px;
+        display: block;
     }
     .header__socials,
     .scroll__down {

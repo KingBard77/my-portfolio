@@ -4,15 +4,16 @@ import CTA from './CTA'
 import ME from '../../assets/My_Profile1.png'
 import HeaderSocial from './HeaderSocial'
 import {Typewriter} from "react-simple-typewriter";
-import {BiRightArrowAlt} from 'react-icons/bi'
+import {FaLongArrowAltRight} from 'react-icons/fa'
 
 const Header = () => {
   return (
     <header>
       <div className="container header__container">
+        <div className="header__data">
           <h5 className="home__title">Hello I'm Badrul Amin</h5>
-          <h1 className="home__subtitle">I'm a Web Developer</h1>
-          <span style={{color: '#ffffff99', fontWeight:'bold'}}>
+          <h1 className="home__subtitle">Bachelor of Information Technology (Hons.) in Software Engineering</h1>
+          <span style={{color: '#e1094a', fontWeight:'bold'}}>
             <Typewriter
               loop={5}
               cursor
@@ -20,15 +21,18 @@ const Header = () => {
               typeSpeed={70}
               deleteSpeed={50}
               delaySpeed={1000}
-              words={["Software Engineering", "Web Developer", "Android Developer"]}
+              words={["Frontend Developer", "Web Developer", "App Developer", "UI/UX Designer", "Backend Developer"]}
             />
+            <CTA/>
           </span>
+        </div>
 
-
-        <CTA/>
         <HeaderSocial/>
+        <div className="me">
+          <img src={ME} alt="me"/>
+        </div>
+        <span className='scroll__down'><a href="#contact">Scroll Down </a><FaLongArrowAltRight className='scroll__down-icon'/></span>
 
-        <a href="#contact" className='scroll__down'>Scroll Down <BiRightArrowAlt className='header__socials-icon'/></a>
       </div>
     </header>
   )

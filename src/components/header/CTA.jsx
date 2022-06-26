@@ -1,11 +1,13 @@
 import React from 'react'
 import CV from '../../assets/Resume.pdf'
+import {FaDownload} from 'react-icons/fa'
+import {FaUser} from 'react-icons/fa'
 
 const CTA = () => {
   return (
     <div className='cta'>
-        <a href={CV} download className='btn btn-primary'>Donwload Resume</a>
-        <a href="#contact" className='btn'>Contact Me</a>
+        <a href={CV} download className='btn btn-primary'>Resume <FaDownload className='.header__socials-icon'/></a>
+        <a href="#about" className='btn'>About Me <FaUser/></a>
     </div>
   )
 }

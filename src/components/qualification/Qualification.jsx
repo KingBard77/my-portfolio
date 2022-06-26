@@ -29,17 +29,17 @@ const Experience = () => {
             <div className="timeline__item">
               <div className="circle__dot"></div>
               <h4 className='timeline__title'>MARA Professional College, Seri Iskandar. Perak</h4>
-              <p className='timeline__text'>Foundation in Business</p>
+              <p className='timeline__text'>HND Business and ICT</p>
               <span className='timeline__date'><AiOutlineCalendar/>
-              07/2016 - 10/2017</span>
+              12/2017 - 03/2019</span>
             </div>
 
             <div className="timeline__item">
               <div className="circle__dot"></div>
               <h4 className='timeline__title'>MARA Professional College, Seri Iskandar. Perak</h4>
-              <p className='timeline__text'>HND Business and ICT</p>
+              <p className='timeline__text'>Foundation in Business</p>
               <span className='timeline__date'><AiOutlineCalendar/>
-              12/2017 - 03/2019</span>
+              07/2016 - 10/2017</span>
             </div>
           </div>
         </div>

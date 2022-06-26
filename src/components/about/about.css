@@ -60,9 +60,17 @@
         color: var(--color-text);
     }
     
+    .about__content h3 {
+        font-size: var(--h3-font-size);
+        margin-bottom: var(--mb-0-75);
+        padding-top: 1rem;
+    }
+    
     .about__content p {
         margin: 2rem 0 2.6rem;
         color: var(--color-text);
+        text-align: justify;
+        padding-right: 5rem;
     }
     /* ========= MEDIA QUARIES (MEDIUM DEVICES) ========= */
     

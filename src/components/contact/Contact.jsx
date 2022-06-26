@@ -3,7 +3,7 @@ import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
-import {BiPaperPlane} from 'react-icons/bi'
+import {FaRegPaperPlane} from 'react-icons/fa'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
@@ -73,7 +73,7 @@ const Contact = () => {
             <span>Message</span>
           </div>
 
-          <button type="submit" className='btn btn-primary'><BiPaperPlane/> Send Message</button>
+          <button type="submit" className='btn btn-primary'>Send Message <FaRegPaperPlane/></button>
         </form>
       </div>
     </section>
