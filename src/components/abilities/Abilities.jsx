@@ -120,7 +120,7 @@ const abilities = () => {
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className='skills__name'>Photoshop</h3>
-                    <span className='skills__number'>Intermediate%</span>
+                    <span className='skills__number'>Intermediate</span>
                   </div>
                   
                   <div className="skills__bar">

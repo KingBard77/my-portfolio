@@ -47,6 +47,9 @@
 .services__button-icon {
     font-size: 1rem;
     transition: .3s;
+    margin-right: 4px;
+    position: relative;
+    top: 1px;
 }
 
 .services__button-icon:hover {

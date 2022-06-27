@@ -6,6 +6,7 @@ import {BsWhatsapp} from 'react-icons/bs'
 import {FaRegPaperPlane} from 'react-icons/fa'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
+import {BiChevronRight} from 'react-icons/bi'
 
 
 
@@ -30,21 +31,30 @@ const Contact = () => {
             <MdOutlineEmail className="contact__options-icon" />
             <h4>Email</h4>
             <h5>badamin771@gmail.com</h5>
-            <a href="mailto:badamin771@gmail.com.my" target="__blank" className='contact__button-icon'>Send a Message</a>
+
+            <span className='contact__button'>
+              <a href="mailto:badamin771@gmail.com.my" target="__blank" className='contact__button'>Send a Message </a><BiChevronRight className='contact__button-icon'/>
+            </span>
           </acticle>
 
           <acticle className="contact__option">
             <RiMessengerLine className="contact__options-icon" />
             <h4>Messenger</h4>
             <h5>Badrul Amin</h5>
-            <a href="https://m.me/badrula3" target="__blank" className='contact__button-icon'>Send a Message</a>
+
+            <span className='contact__button'>
+              <a href="https://m.me/badrula3" target="__blank" className='contact__button'>Send a Message </a><BiChevronRight className='contact__button-icon'/>
+            </span>
           </acticle>
 
           <acticle className="contact__option">
             <BsWhatsapp className="contact__options-icon" />
             <h4>WhatsApp</h4>
             <h5>+6 018 - 9139569</h5>
-            <a href="https://wa.me/+60189139569" target="__blank" className='contact__button-icon'>Send a Message</a>
+
+            <span className='contact__button'>
+              <a href="https://wa.me/+60189139569" target="__blank" className='contact__button'>Send a Message</a><BiChevronRight className='contact__button-icon'/>
+            </span>
           </acticle>
         </div>
         {/* END OF CONTACT OPTION */}
@@ -52,7 +62,7 @@ const Contact = () => {
           <div className="input__container">
             <input type="text" name='name' className='input' required />
             <label for=''>Full Name</label>
-            <span>Full Name</span>
+            <span className='input__container-span'>Full Name</span>
           </div>
 
           <div className="input__container">

@@ -13,7 +13,7 @@
         /*===== Colors =====*/
         --hue-color: 242;
         /* HSL Color Mode */
-        --skin-color: hsl(342, 92%, 46%);
+        --skin-color: #00a78e;
         --color-text: hsl(var(--hue-color), 8%, 95%);
         --color-white: hsl(var(--hue-color), 8%, 85%);
         --color-bg: hsl(var(--hue-color), 19%, 5%);
@@ -64,7 +64,6 @@
         background: var(--color-bg);
         color: var(--color-white);
         line-height: 1.7;
-        background-image: url(../src/assets/bg-texture.png);
     }
     /* ========= GENERAL STYLE ========= */
     

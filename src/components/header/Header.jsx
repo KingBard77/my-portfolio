@@ -8,12 +8,12 @@ import {FaLongArrowAltRight} from 'react-icons/fa'
 
 const Header = () => {
   return (
-    <header>
+    <header id='home'>
       <div className="container header__container">
         <div className="header__data">
-          <h5 className="home__title">Hello I'm Badrul Amin</h5>
+          <h5 className="home__title">Hello, I'm Badrul Amin</h5>
           <h1 className="home__subtitle">Bachelor of Information Technology (Hons.) in Software Engineering</h1>
-          <span style={{color: '#e1094a', fontWeight:'bold'}}>
+          and I'm a <span style={{color: '#00a78e', fontWeight:'bold'}}> 
             <Typewriter
               loop={5}
               cursor

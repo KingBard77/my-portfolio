@@ -10,8 +10,8 @@ const Footer = () => {
       <a href="#" className='footer__logo'>Badrul Amin</a>
 
       <ul className='parmalinks'>
-        <li><a href='#'>Home</a></li>
-        <li><a href='#About'>About</a></li>
+        <li><a href='#home'>Home</a></li>
+        <li><a href='#about'>About</a></li>
         <li><a href='#abilities'>Abilities</a></li>
         <li><a href='#qualification'>Qualification</a></li>
         <li><a href='#Services'>Services</a></li>
