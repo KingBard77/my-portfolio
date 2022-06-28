@@ -39,6 +39,18 @@ header {
     font-weight: var(--font-medium);
 }
 
+.home__description {
+    font-size: var(--small-font-size);
+    line-height: 36px;
+    margin-bottom: var(--mb-0-5);
+    margin-top: var(--mb-2);
+}
+
+.home__description span {
+    color: var(--skin-color);
+    font-weight: var(--font-medium);
+}
+
 
 /* ========== CTA ========== */
 
@@ -47,6 +59,7 @@ header {
     display: flex;
     gap: 1.2rem;
     justify-content: left;
+    margin-bottom: 9rem;
 }
 
 
@@ -117,6 +130,38 @@ header {
 
 .scroll__down-icon:hover {
     transform: translateX(.25rem)
+}
+
+
+/* ========== FLOATING ========== */
+
+.i-right {
+    flex: 1;
+    position: relative;
+}
+
+.i-right>* {
+    position: absolute;
+    z-index: 1;
+}
+
+.i-right>:nth-child(1) {
+    transform: scale(0.1);
+    left: 10rem;
+    top: -23rem;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.i-right>:nth-child(2) {
+    transform: scale(0.67);
+    left: -30rem;
+    top: -4.6rem;
+}
+
+.i-right>:nth-child(3) {
+    transform: scale(0.67);
+    left: 38%;
 }
 
 

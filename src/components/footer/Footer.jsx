@@ -20,12 +20,27 @@ const Footer = () => {
         <li><a href='#Contact'>Contact</a></li>
       </ul>
 
-      <div className="footer__socials">
-        <a href="https://facebook.com"><FaFacebookF/></a>
-        <a href="https://instagram.com"><FiInstagram/></a>
-        <a href="https://twitter.com"><IoLogoTwitter/></a>
-      </div>
+      <div className="home__social">
+        <span className='home__social-follow'>Follow me on</span>
 
+        <div className="home__social-links">
+          <a href="https://facebook.com" className='home__social-link'>
+            <FaFacebookF/>
+            <span>Like on Facebook</span>
+          </a>
+
+          <a href="https://instagram.com" className='home__social-link'>
+            <FiInstagram/>
+            <span>Like on Instagram</span>
+          </a>
+
+          <a href="https://https://twitter.com" className='home__social-link'>
+            <IoLogoTwitter/>
+            <span>Like on Twitter</span>
+          </a>
+        </div>
+      </div>
+    
       <div className="footer__copyright">
         <small>&copy; Badrul Amin. All right reserved 2022.</small>
       </div>

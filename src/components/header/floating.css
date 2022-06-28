@@ -1,0 +1,30 @@
+.floatingdiv {
+    justify-content: space-around;
+    display: flex;
+    background: var(--color-text);
+    box-shadow: var(--color-bg);
+    border-radius: 17px;
+    align-items: center;
+    padding: 0px 60px 0px 0px;
+    height: 5.0rem;
+    color: var(--color-bg);
+    border: 1px solid var(--skin-bg);
+    transition: var(--transition);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.floatingdiv:hover {
+    border-color: var(--skin-color);
+    cursor: default;
+}
+
+.floatingdiv>img {
+    transform: scale(0.8);
+    margin-left: -1.8rem;
+}
+
+.floatingdiv>span {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-bold);
+}

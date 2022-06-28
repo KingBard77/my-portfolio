@@ -78,9 +78,9 @@ const Portfolio = () => {
 
         <div className="container portfolio__container">
         {
-          data.map(({id, image, title, description, created, language, role, github, youtube}) => {
+          data.map(({id, category, image, title, description, created, language, role, github, youtube}) => {
             return(
-            <article key={id} className='portfolio__item mix {datatarget}'>
+            <article key={id} className='portfolio__item mix {category}'>
               <div className="portfolio__item-image">
                 <img src={image} alt={title}/>
               </div>
@@ -105,7 +105,6 @@ const Portfolio = () => {
         } 
       </div>
 
-      
       {/* Portfolio Pupup*/}
 
       <div className="portfolio__popup">
@@ -116,10 +115,10 @@ const Portfolio = () => {
             </span>
 
             <div className="pp__thumbnail">
-              <img src={IMG1} alt="" className='portfolio__popup'/>
+              <img src='../../assets/portfolio1.jpg' alt=""/>
             </div>
             <div className="portfolio__popup-info">
-              <div className="portfolio__popup-subtitle">Featured - <span>Design</span></div>
+              <div className="portfolio__popup-subtitle">Recent - <span>Works</span></div>
               <div className="portfolio__popup-body">
                 <h3 className='details__title'>BurgerByte Inventory System</h3>
                 <p className='details__description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>

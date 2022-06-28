@@ -60,7 +60,7 @@ const Services = () => {
 
                 <div className="services__modal">
                   <div className="services__modal-content">
-                    <span className="portfolio__popup-close">
+                    <span className="services__modal-close">
                       <AiOutlineClose />
                     </span>
 
