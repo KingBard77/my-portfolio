@@ -12,23 +12,38 @@ import Floating from './floating'
 import Crown from '../../assets/crown.png'
 import Thumbup from '../../assets/thumbup.png'
 import Glassesiemoji from '../../assets/glassesimoji.png'
-
+import {motion} from 'framer-motion'
 
 const Header = () => {
+  
+  const transition = {duration : 2, type: 'spring'}
+
   return (
     <header id='home'>
       <div className="container header__container">
 
         <div className="i-right">
-            <img src={Glassesiemoji} alt=''/>
+            <motion.img 
+            initial={{left:'-10%'}}
+            whileInView={{left: '7%'}}
+            transition={transition}
+            src={Glassesiemoji} alt=''/>
 
-            <div style={{top: '22rem', left: '75rem' }}>
+            <motion.div
+            initial={{top: '15rem', left:'18rem'}}
+            whileInView={{left: '82%'}}
+            transition={transition}
+            style={{top: '22rem', left: '75rem' }}>
               <Floating image={Crown} txt1='Software' txt2='Engineer'/>
-            </div>
+            </motion.div>
 
-            <div style={{top: '38rem', left: '46rem' }}>
+            <motion.div 
+            initial={{left:'18rem', top: '39rem' }}
+            whileInView={{left: '50rem'}}
+            transition={transition}
+            style={{top: '38rem', left: '46rem' }}>
               <a href="#about"><Floating image={Thumbup} txt1='Web' txt2='Developer'/></a>
-            </div>
+            </motion.div>
           </div>
 
         <div className="header__data">
