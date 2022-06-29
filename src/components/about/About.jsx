@@ -1,25 +1,47 @@
-import React from 'react'
+import React, {useRef, useEffect} from 'react'
 import './about.css'
 import ME from '../../assets/My_Profile3.jpeg'
 import {FaAward} from 'react-icons/fa'
 import {VscFolderLibrary} from 'react-icons/vsc'
 import {BiSupport} from 'react-icons/bi'
 import {FaRegPaperPlane} from 'react-icons/fa'
+import Transition from '../transition/Transition.jsx'
+import gsap from 'gsap'
+
 
 const About = () => {
+
+  const about= gsap.timeline();
+  const about1 = useRef(null);
+  const aboutimg = useRef(null);
+  useEffect(() =>{
+    about.from(about1.current,{
+      duration: .5,
+      skewX:10,
+      x:-100,
+      opacity:0,
+    }, "-=3.5")
+    about.from(aboutimg.current,{
+      duration: .1,
+      y: -200,
+      opacity:0
+    }, "-=.3")
+  })
+
   return (
     <section id='about'>
+      <Transition timeline={about}/>
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
       <div className="container about__container">
-        <div className="about__me">
+        <div className="about__me" ref={aboutimg}>
           <div className="about__me-image">
             <img src={ME} alt="About Image"/>
           </div>
         </div>
 
-        <div className="about__content">
+        <div className="about__content" ref={about1}>
           <div className="about__cards">
             <article className='about__card'>
               <FaAward className='about__icon'/>

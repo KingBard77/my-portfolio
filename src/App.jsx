@@ -9,11 +9,11 @@ import Portfolio from './components/portfolio/Portfolio'
 import Testimononials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 const App = () => {
   return (
-    <>
+    <Router>
       <Header/>
       <Nav/>
       <About/>
@@ -24,7 +24,7 @@ const App = () => {
       <Testimononials/>
       <Contact/>
       <Footer/>
-    </>
+    </Router>
   )
 }
 

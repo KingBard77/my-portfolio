@@ -135,8 +135,8 @@
     cursor: pointer;
 }
 
-.portfolio__popup-img {
-    border-radius: .5rem;
+.pp__thumbnail img {
+    border-radius: 1.5rem;
 }
 
 .portfolio__popup-subtitle {
