@@ -42,7 +42,6 @@ const Portfolio = () => {
               <img src='../../assets/portfolio1.jpg' alt=""/>
             </div>
             <div className="portfolio__popup-info">
-              <div className="portfolio__popup-subtitle">Recent - <span>Works</span></div>
               <div className="portfolio__popup-body">
                 <h3 className='details__title'>BurgerByte Inventory System</h3>
                 <p className='details__description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>

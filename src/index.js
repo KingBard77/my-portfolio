@@ -31,18 +31,6 @@ tabs.forEach(tab => {
 
 /*============ MIXUP FILTER PORTFOLIO ============*/
 
-const filterBtns = document.querySelectorAll('.portfolio__tab');
-
-filterBtns.forEach(function(btn) {
-    btn.addEventListener("click", function(e) {
-        const category = e.currentTarget.dataset.id;
-        const menuCategory = data.filter(function(data) {
-            return menuCategory;
-        })
-    })
-})
-
-
 /*============ PORTFOLIO POPUP============*/
 document.addEventListener("click", (e) => {
     if (e.target.classList.contains("portfolio__button")) {

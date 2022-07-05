@@ -85,7 +85,6 @@
 .portfolio__button-social {
     color: var(--skin-color);
     font-size: var(--normal-font-size);
-    margin-top: 5px;
 }
 
 
@@ -146,6 +145,13 @@
     margin-bottom: var(--mb-0-25);
 }
 
+.portfolio__popup-subtitle span {
+    font-size: var(--smaller-font-size);
+    margin-bottom: var(--mb-0-25);
+    color: var(--skin-color);
+    font-weight: var(--font-bold);
+}
+
 .details__title {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
@@ -174,6 +180,14 @@
 .details__info li a {
     text-transform: lowercase;
     color: var(--skin-color);
+}
+
+
+/* ========= COMMING SOON ========= */
+
+.comming__soon {
+    font-family: 'Roboto, sans-serif';
+    text-align: center;
 }
 
 

@@ -69,7 +69,7 @@ const Header = () => {
 
         <div className="header__data" ref={home1}>
           <h5 className="home__title">Hello, I'm Badrul Amin</h5>
-          <span className="home__subtitle">Bachelor of Information Technology (Hons.) in Software Engineering </span>
+          <span className="home__subtitle">Bachelor of Information Technology (Hons.) in Software Engineering </span><br/>
           and I'm a <span style={{color: '#00a78e', fontWeight:'bold'}}> 
             <Typewriter
               loop={5}
