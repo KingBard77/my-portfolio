@@ -170,6 +170,11 @@ header {
 @media screen and (max-width: 1024px) {
     .header {
         height: 68vh;
+        flex-direction: column;
+        background-image: none;
+    }
+    .floating-div {
+        display: none;
     }
 }
 
@@ -178,17 +183,43 @@ header {
 
 @media screen and (max-width: 600px) {
     .header {
-        height: 100%;
-        background: none;
-        align-items: initial;
-        padding: 7rem 0 2rem;
+        height: 100vh;
+        background: red;
     }
-    .me {
-        width: 200px;
-        display: block;
+    .header__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 40%;
+    }
+    .header__data {
+        position: absolute;
+        width: auto;
+        padding-right: 4rem;
+        text-align: left;
+        text-align: center;
+    }
+    .home__title {
+        font-size: var(--h3-font-size);
+        padding-bottom: 1rem;
+    }
+    .home__subtitle {
+        font-size: var(--small-font-size);
+        padding-bottom: 1rem;
+    }
+    .home__description {
+        font-size: var(--smaller-font-size);
+        column-gap: 1.8rem;
+    }
+    .i-right {
+        transform: scale(0.8);
+        left: -3rem;
     }
     .header__socials,
     .scroll__down {
+        display: none;
+    }
+    .floating-div {
         display: none;
     }
 }

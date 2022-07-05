@@ -31,7 +31,16 @@ tabs.forEach(tab => {
 
 /*============ MIXUP FILTER PORTFOLIO ============*/
 
+const filterBtns = document.querySelectorAll('.portfolio__tab');
 
+filterBtns.forEach(function(btn) {
+    btn.addEventListener("click", function(e) {
+        const category = e.currentTarget.dataset.id;
+        const menuCategory = data.filter(function(data) {
+            return menuCategory;
+        })
+    })
+})
 
 
 /*============ PORTFOLIO POPUP============*/
@@ -99,7 +108,7 @@ function focusFunc() {
 
 function blurFunc() {
     let parent = this.parentNode;
-    if (this.value == "") {
+    if (this.value === "") {
         parent.classList.remove("focus");
     }
 }

@@ -45,13 +45,15 @@ const Header = () => {
           initial={{left:'-10%'}}
           whileInView={{left: '7%'}}
           transition={transition}
-          src={Glassesiemoji} alt=''/>
+          src={Glassesiemoji} alt=''
+          className='floating-div'/>
 
           <motion.div
           initial={{top: '15rem', left:'18rem'}}
           whileInView={{left: '82%'}}
           transition={transition}
-          style={{top: '22rem', left: '75rem' }}>
+          style={{top: '22rem', left: '75rem' }}
+          className='floating-div'>
             <Floating image={Crown} txt1='Software' txt2='Engineer'/>
           </motion.div>
 
@@ -59,14 +61,15 @@ const Header = () => {
           initial={{left:'18rem', top: '39rem' }}
           whileInView={{left: '50rem'}}
           transition={transition}
-          style={{top: '38rem', left: '46rem' }}>
+          style={{top: '38rem', left: '46rem' }}
+          className='floating-div'>
             <a href="#about"><Floating image={Thumbup} txt1='Web' txt2='Developer'/></a>
           </motion.div>
         </div>
 
         <div className="header__data" ref={home1}>
           <h5 className="home__title">Hello, I'm Badrul Amin</h5>
-          <h1 className="home__subtitle">Bachelor of Information Technology (Hons.) in Software Engineering</h1>
+          <span className="home__subtitle">Bachelor of Information Technology (Hons.) in Software Engineering </span>
           and I'm a <span style={{color: '#00a78e', fontWeight:'bold'}}> 
             <Typewriter
               loop={5}

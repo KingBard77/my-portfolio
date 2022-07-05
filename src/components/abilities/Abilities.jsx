@@ -13,7 +13,7 @@ const abilities = () => {
         <h2> My Experience</h2>
 
         <div className="abilities__container container">
-          <div className="skills_tabs">
+          <div className="skills__tabs">
             <div className="skills__header skills__active" data-target="#frontend">
               <BiCodeCurly className='skills__icon'/>
               <div>

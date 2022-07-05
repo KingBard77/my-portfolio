@@ -37,7 +37,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me" ref={aboutimg}>
           <div className="about__me-image">
-            <img src={ME} alt="About Image"/>
+            <img src={ME} alt="About Me"/>
           </div>
         </div>
 

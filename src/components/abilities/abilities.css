@@ -93,16 +93,17 @@
 /* ========= MEDIA QUARIES (MEDIUM DEVICES) ========= */
 
 @media screen and (max-width: 1024px) {
-    .experience__container {
+    .abilities__container {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
-    .experience__content>div {
-        width: 80%;
+    .skills_tabs {
+        width: 100%;
         margin: 0 auto;
         padding: 2rem;
+        margin-bottom: var(--mb-2);
     }
-    .experience__content {
+    .skills__content {
         padding: 1rem;
     }
 }
@@ -111,11 +112,11 @@
 /* ========= MEDIA QUARIES (SMALL DEVICES) ========= */
 
 @media screen and (max-width: 600px) {
-    .experience__container {
+    .abilities__container {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
-    .experience__content>div {
+    .skills_tabs {
         width: 100%;
         padding: 2rem 1rem;
     }
