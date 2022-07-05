@@ -41,7 +41,7 @@ const Data = [{
     },
     {
         id: 4,
-        category: 'Design',
+        category: 'Web',
         image: IMG4,
         title: 'My Portfolio Website',
         description: 'Web-System about myself that I can share my portfolio and my skills and experience.',
