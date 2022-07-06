@@ -1,5 +1,5 @@
 import IMG1 from '../../assets/portfolio-1.jpg'
-import IMG2 from '../../assets/portfolio-2.png'
+import IMG2 from '../../assets/portfolio-2.jpg'
 import IMG3 from '../../assets/portfolio-3.jpg'
 import IMG4 from '../../assets/portfolio-4.jpg'
 import IMG5 from '../../assets/portfolio-5.jpg'
@@ -28,7 +28,7 @@ const Data = [{
         created: '21 Apr 2021',
         language: 'Bootstrap4, C#, MySQL',
         role: 'Frontend, Backend',
-        github: 'https://github.com',
+        github: 'https://github.com/KingBard77/KTM_Komuter',
         youtube: 'https://youtu.be/EUr2ih0S8K4'
     },
     {

@@ -183,6 +183,55 @@
 }
 
 
+/* ========= NAVIGATION ========= */
+
+.navigation {
+    display: none;
+}
+
+.portfolio__content-caption {
+    position: absolute;
+    left: .1rem;
+    bottom: -2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--smaller-font-size);
+    color: var(--color-white);
+    font-weight: var(--font-bold);
+    z-index: -1;
+}
+
+.prev__item,
+.next__item {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-color: var(--color-white);
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    top: 15rem;
+    font-size: var(--h1-font-size);
+    margin-top: -20px;
+    z-index: 110;
+    transition: all 0.3s ease;
+}
+
+.prev__item {
+    left: -5rem;
+}
+
+.next__item {
+    right: -5rem;
+}
+
+.prev__item:hover,
+.next__item:hover {
+    transform: scale(1.1);
+}
+
+
 /* ========= COMMING SOON ========= */
 
 .comming__soon {

@@ -4,6 +4,8 @@ import {AiOutlineClose} from 'react-icons/ai'
 import Data from "./Data";
 import Card from "./Card";
 import Buttons from "./Buttons";
+import {AiFillLeftCircle} from 'react-icons/ai'
+import {AiFillRightCircle} from 'react-icons/ai'
 
 
 
@@ -53,8 +55,20 @@ const Portfolio = () => {
                 </ul>
               </div>
             </div>
+
+            <div className="navigation">
+              <div className="caption__content">
+                <div className="caption__text">Web</div>
+                <div className="caption__counter">1 of 2</div>
+              </div>
+
+              <div className="portfolio__controls">
+                <div className="prev__item" onClick="prevItem()"><AiFillLeftCircle/></div>
+                <div className="next__item" onClick="nextItem()"><AiFillRightCircle/></div>
+              </div>
+            </div>
           </div>
-        </div>
+        </div> 
       </div>
     </section>
   )

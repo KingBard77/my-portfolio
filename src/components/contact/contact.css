@@ -95,7 +95,7 @@ textarea.input {
     transition: .5s;
 }
 
-.input__container.textarea label {
+.textarea label {
     top: 1rem;
     transform: translateY(0);
 }
@@ -135,7 +135,7 @@ textarea.input {
 
 .input__container.focus label {
     top: 0;
-    translate: translateY(-50%);
+    transform: translateY(-50%);
     left: 25px;
     font-size: var(--smaller-font-size);
 }

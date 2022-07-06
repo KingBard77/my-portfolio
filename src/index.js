@@ -29,8 +29,6 @@ tabs.forEach(tab => {
 })
 
 
-/*============ MIXUP FILTER PORTFOLIO ============*/
-
 /*============ PORTFOLIO POPUP============*/
 document.addEventListener("click", (e) => {
     if (e.target.classList.contains("portfolio__button")) {
@@ -49,7 +47,10 @@ function poftfolioItemDetails(portfolioItem) {
     document.querySelector(".pp__thumbnail img").src = portfolioItem.querySelector(".portfolio__item-image img").src;
     document.querySelector(".details__title").innerHTML = portfolioItem.querySelector(".portfolio__item-title").innerHTML;
     document.querySelector(".portfolio__popup-body").innerHTML = portfolioItem.querySelector(".portfolio__item-details").innerHTML;
+    document.querySelector(".caption__content").innerHTML = portfolioItem.querySelector(".portfolio__content-caption").innerHTML;
 }
+
+
 
 /*============ PORTFOLIO ACTIVE ============*/
 const linkWork = document.querySelectorAll('.portfolio__tab')
@@ -109,7 +110,7 @@ inputs.forEach((input) => {
 
 
 
-/*============ SCROLL SECTION ============*/
+/*============ SCROLL SECTION ============
 const sections = document.querySelectorAll("section[id]");
 
 window.addEventListener("scroll", navHighlighter);
@@ -128,4 +129,4 @@ function navHighlighter() {
             document.querySelector('.nav a[href*=' + sectionId + ']').classList.remove("active")
         }
     })
-}
+}*/
