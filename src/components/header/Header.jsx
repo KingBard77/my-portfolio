@@ -66,7 +66,7 @@ const Header = () => {
             <a href="#about"><Floating image={Thumbup} txt1='Web' txt2='Developer'/></a>
           </motion.div>
         </div>
-
+        
         <div className="header__data" ref={home1}>
           <h5 className="home__title">Hello, I'm Badrul Amin</h5>
           <span className="home__subtitle">Bachelor of Information Technology (Hons.) in Software Engineering </span><br/>
