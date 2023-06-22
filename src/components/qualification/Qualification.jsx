@@ -52,30 +52,30 @@ const Experience = () => {
             <BsFillBriefcaseFill/>&nbsp;&nbsp;Experience</h4>
 
           <div className="timeline">
+
+            <div className="timeline__item">
+              <div className="circle__dot"></div>
+              <h4 className='timeline__title'>MIMOS Berhad</h4>
+              <p className='timeline__text'>Associate Researcher</p>
+              <span className='timeline__date'><AiOutlineCalendar/>
+              02/2023 - Present</span>
+            </div>
+
+            <div className="timeline__item">
+              <div className="circle__dot"></div>
+              <h4 className='timeline__title'>MIMOS Berhad</h4>
+              <p className='timeline__text'>Internship</p>
+              <span className='timeline__date'><AiOutlineCalendar/>
+              08/2022 - 12/2022</span>
+            </div>
+
             <div className="timeline__item">
               <div className="circle__dot"></div>
               <h4 className='timeline__title'>Hanif Mimi Ent</h4>
               <p className='timeline__text'>Food Services</p>
               <span className='timeline__date'><AiOutlineCalendar/>
-              07/2016 - Present</span>
+              07/2016 - 02/2013</span>
             </div>
-
-            <div className="timeline__item">
-              <div className="circle__dot"></div>
-              <h4 className='timeline__title'>Man Energy Sources Ent</h4>
-              <p className='timeline__text'>Electrical Technician</p>
-              <span className='timeline__date'><AiOutlineCalendar/>
-              06/2020 - 12/2020</span>
-            </div>
-
-            <div className="timeline__item">
-              <div className="circle__dot"></div>
-              <h4 className='timeline__title'>Arshad Sdn Bhd</h4>
-              <p className='timeline__text'>Retail Supervisor</p>
-              <span className='timeline__date'><AiOutlineCalendar/>
-              12/2015 - 06/2017</span>
-            </div>
-
           </div>
         </div>
       </div>

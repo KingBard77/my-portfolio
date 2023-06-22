@@ -1,8 +1,8 @@
 import React from 'react'
 import './testimonials.css'
-import AVTR1 from '../../assets/avatar1.jpg'
+import AVTR1 from '../../assets/avatar3.jpg'
 import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
+import AVTR3 from '../../assets/avatar1.jpg'
 import AVTR4 from '../../assets/avatar4.jpg'
 import {ImQuotesLeft} from 'react-icons/im'
 
@@ -20,27 +20,27 @@ import 'swiper/css/scrollbar';
 const data = [
   {
     avatar:AVTR1,
-    name:'Tina Show',
-    detail:'Web Developer',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit'
+    name:'Muhammad Faris Khairul Anuar',
+    detail:'Photographer & Videographer',
+    review: 'You made it so simple. My new site is so much faster and easier to work with than my old site.'
   },
   {
     avatar:AVTR2,
-    name:'Shatta Wale',
-    detail:'Web Developer',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit'
+    name:'Khairie Kamal',
+    detail:'Business Owner',
+    review: 'Good design, good code, good support, good everything. LOVE IT!'
   },
   {
     avatar:AVTR3,
-    name:'John Doe',
-    detail:'Web Developer',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit'
+    name:'Hannah Delisha',
+    detail:'Art Director',
+    review: 'Badrul is a great developer. He is very professional and easy to work with. I highly recommend him.'
   },
   {
     avatar:AVTR4,
-    name:'Kwame Despite',
-    detail:'Web Developer',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit'
+    name:'Ahmad Haikal Zamri',
+    detail:'Project Manager',
+    review: 'His work is very professional and he is very responsive. I will definitely work with him again.'
   },
 ]
 const Testimonials = () => {

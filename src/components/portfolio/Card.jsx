@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from 'react'
 import {BiChevronRight} from 'react-icons/bi'
 import {AiFillYoutube} from 'react-icons/ai'
 import {AiFillGithub} from 'react-icons/ai'
@@ -6,6 +7,15 @@ import {AiFillLeftCircle} from 'react-icons/ai'
 import {AiFillRightCircle} from 'react-icons/ai'
 
 const Card = ({ item }) => {
+  const [currentItemIndex, setCurrentItemIndex] = useState(0);
+
+  const prevItem = () => {
+    setCurrentItemIndex((currentItemIndex - 1 + item.length) % item.length);
+  };
+
+  const nextItem = () => {
+    setCurrentItemIndex((currentItemIndex + 1) % item.length);
+  };
   return (
     <>
       <div className="container portfolio__container">
@@ -37,8 +47,8 @@ const Card = ({ item }) => {
                   </div>
 
                   <div className="portfolio__controls">
-                    <div className="prev__item"><AiFillLeftCircle/></div>
-                    <div className="next__item"><AiFillRightCircle/></div>
+                    <div className="prev__item" onClick={prevItem}><AiFillLeftCircle/></div>
+                    <div className="next__item" onClick={nextItem}><AiFillRightCircle/></div>
                   </div>
                 </div>
               </article>

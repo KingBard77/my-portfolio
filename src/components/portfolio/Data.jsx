@@ -5,6 +5,8 @@ import IMG4 from '../../assets/portfolio-4.jpg'
 import IMG5 from '../../assets/portfolio-5.jpg'
 import IMG6 from '../../assets/portfolio-6.jpg'
 import IMG7 from '../../assets/portfolio-7.jpg'
+import IMG8 from '../../assets/portfolio-8.jpg'
+import IMG9 from '../../assets/portfolio-9.jpg'
 
 
 const Data = [{
@@ -90,6 +92,30 @@ const Data = [{
         role: 'Frontend',
         github: '',
         youtube: 'https://youtu.be/jUm61fMClsY'
+    },
+    {
+        id: 8,
+        category: 'Web',
+        image: IMG8,
+        title: 'Client & Counsellor Appointment Manament Web-System',
+        description: 'Web-System for Client & Counsellor Appointment Manament that allows the user to book an appointment with the counsellor.',
+        created: '23 June 2022',
+        language: 'Bootstrap5, PHP, MySQL, JavaScript',
+        role: 'Frontend, Backend',
+        github: '',
+        youtube: ''
+    },
+    {
+        id: 9,
+        category: 'Web',
+        image: IMG9,
+        title: 'KitaFund NGO Haluan Kedah Management Web-System',
+        description: 'Web-System for KitaFund NGO Haluan Kedah Management that allows the user to manage the donation and the event.',
+        created: '23 June 2022',
+        language: 'Bootstrap5, PHP, MySQL, JavaScript',
+        role: 'Frontend, Backend',
+        github: '',
+        youtube: ''
     }
 ]
 export default Data;
