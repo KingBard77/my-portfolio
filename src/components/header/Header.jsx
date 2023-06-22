@@ -40,7 +40,7 @@ const Header = () => {
       {/* <Transition timeline={header}/> */}
       <div className="container header__container"  >
 
-        {/* <div className="i-right">
+        {/* <div className="i-right""">
           <motion.img 
           initial={{left:'-10%'}}
           whileInView={{left: '7%'}}
