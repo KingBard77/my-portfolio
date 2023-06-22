@@ -1,4 +1,4 @@
-import React, {useRef, useEffect} from 'react'
+// import React, {useRef, useEffect} from 'react'
 import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/My_Profile1.png'
@@ -10,8 +10,8 @@ import {FaLongArrowAltRight} from 'react-icons/fa'
 // import Thumbup from '../../assets/thumbup.png'
 // import Glassesiemoji from '../../assets/glassesimoji.png'
 // import {motion} from 'framer-motion'
-import Transition from '../transition/Transition.jsx'
-import gsap from 'gsap'
+// import Transition from '../transition/Transition.jsx'
+// import gsap from 'gsap'
 
 const Header = () => {
 
