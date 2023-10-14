@@ -1,13 +1,13 @@
 import React from "react";
-import Data from "./Data";
+// import Data from "./Data";
 
-const Buttons = ({ filterItem, setItem, menuItems }) => {
+const Buttons = ({ filterItem, setItem, menuItems, items }) => {
   return (
     <>
       <div className="portfolio__filters">
       <button
           className="portfolio__tab active__portfolio"
-          onClick={() => setItem(Data)}
+          onClick={() => setItem(items)}
         >
           All
         </button>

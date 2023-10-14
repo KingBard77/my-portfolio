@@ -1,28 +1,22 @@
-import React from 'react'
-import './nav.css'
-import {AiOutlineHome} from 'react-icons/ai'
-import {AiOutlineUser} from 'react-icons/ai'
-import {BiBook} from  'react-icons/bi'
-import {AiOutlineCode} from 'react-icons/ai'
-import {RiServiceLine} from 'react-icons/ri'
-import {AiOutlineProfile} from 'react-icons/ai'
-import {BiMessageSquareDetail} from 'react-icons/bi'
-import {useState} from 'react'
-
+import React from 'react';
+import './nav.css';
+import { AiOutlineHome, AiOutlineUser, AiOutlineCode, AiOutlineProfile } from 'react-icons/ai';
+import { BiBook, BiMessageSquareDetail } from  'react-icons/bi';
+import { RiServiceLine } from 'react-icons/ri';
+import { Link } from 'react-scroll';
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href="#home"           onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>
-      <a href="#about"          onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
-      <a href="#qualification"  onClick={() => setActiveNav('#qualification')} className={activeNav === '#qualification' ? 'active' : ''}><BiBook/></a>
-      <a href="#abilities"      onClick={() => setActiveNav('#abilities')} className={activeNav === '#abilities' ? 'active' : ''}><AiOutlineCode/></a>
-      <a href="#services"       onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine/></a>
-      <a href="#portfolio"      onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><AiOutlineProfile/></a>
-      <a href="#contact"        onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail/></a>
+      <Link activeClass="active" to="home" spy={true} smooth={true} offset={-500} duration={500}><AiOutlineHome/></Link>
+      <Link activeClass="active" to="about" spy={true} smooth={true} offset={-500} duration={500}><AiOutlineUser/></Link>
+      <Link activeClass="active" to="qualification" spy={true} smooth={true} offset={-500} duration={500}><BiBook/></Link>
+      <Link activeClass="active" to="abilities" spy={true} smooth={true} offset={-500} duration={500}><AiOutlineCode/></Link>
+      <Link activeClass="active" to="services" spy={true} smooth={true} offset={-500} duration={500}><RiServiceLine/></Link>
+      <Link activeClass="active" to="portfolio" spy={true} smooth={true} offset={-500} duration={500}><AiOutlineProfile/></Link>
+      <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-150} duration={500}><BiMessageSquareDetail/></Link>
     </nav>
   )
 }
 
-export default Nav
+export default Nav;

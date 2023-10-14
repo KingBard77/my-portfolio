@@ -84,6 +84,11 @@
     background-color: var(--box-color);
 }
 
+.skills__data_icon{
+    font-size: 1.5rem;
+    font-weight: var(--font-medium);
+}
+
 .skills__percentage {
     display: block;
     background-color: var(--skin-color);

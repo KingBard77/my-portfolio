@@ -138,6 +138,8 @@ textarea.input {
     transform: translateY(-50%);
     left: 25px;
     font-size: var(--smaller-font-size);
+    background-color: var(--color-bg);
+
 }
 
 .input.contact__container.focus span::before,

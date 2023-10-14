@@ -107,8 +107,146 @@
         color: var(--skin-color);
         column-gap: .4rem;
     }
-    /* ========= MEDIA QUARIES (MEDIUM DEVICES) ========= */
+
+    .qualification__button {
+        color: var(--skin-color);
+        font-size: var(--small-font-size);
+        display: flex;
+        align-items: center;
+        column-gap: .25rem;
+        cursor: pointer;
+    }
+
+    .qualification__button-icon {
+        font-size: 1rem;
+        transition: .3s;
+        margin-right: 4px;
+        position: relative;
+        top: 1px;
+    }
     
+    .qualification__button-icon:hover {
+        transform: translateX(.25rem)
+    }
+
+    /* ======= MODAL ======= */
+
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+        z-index: var(--z-modal);
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        gap: 1rem;
+        margin-bottom: var(--mb-1);
+    }
+
+    .modal-content {
+        width: 1000px;
+        position: relative;
+        background-color: var(--box-color);
+        padding: 4.5rem 2.5rem 2.5rem;
+        border-radius: .5rem;
+    }
+
+    .modal-close {
+        position: absolute;
+        top: 1.5rem;
+        right: 1.5rem;
+        font-size: 1.5rem;
+        color: var(--skin-color);
+        cursor: pointer;
+    }
+
+    .modal-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .modal-logo, .modal-title {
+        margin: 0;
+        padding: 0;
+        border: none;
+        vertical-align: middle; 
+        /* border: 1px solid red;  */
+    }
+
+    .modal-logo {
+        width: 80px;
+        height: 100px;
+        flex-shrink: 0;
+    }
+
+    .modal-title {
+        font-size: var(--h3-font-size);
+        font-family: var(--font-medium);
+        line-height: 1;
+        margin-bottom: 0.8rem; 
+        margin-top: 1.6rem;
+    }
+
+    .modal-title-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: flex-start;
+    }
+
+    .modal-subtitle {
+        font-size: var(--h4-font-size);
+        font-family: var(--font-medium);
+        margin-bottom: var(--mb-2);
+        margin-top: 1rem;
+    }
+
+    .modal-description {
+        font-size: var(--small-font-size);
+        font-family: 0 3.5rem;
+        margin-bottom: var(--mb-2);
+    }
+
+    .qualification__modal-qualifications {
+        display: grid;
+        row-gap: var(--mb-0-75);
+        align-items: center;
+        column-gap: .5rem;
+    }
+
+    .qualification__modal-qualifications li {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .modal-icon {
+        color: var(--skin-color);
+        font-size: 1.5rem !important;
+        width: 1.5rem !important;
+        height: 1.5rem !important;
+    }
+
+    .modal-info {
+        font-size: var(--small-font-size);
+        text-align: justify;
+    }
+
+    .active-modal {
+        opacity: 1;
+        visibility: visible;
+    }
+
     @media screen and (max-width: 1024px) {
         .experience__container {
             grid-template-columns: 1fr;
@@ -123,8 +261,7 @@
             padding: 1rem;
         }
     }
-    /* ========= MEDIA QUARIES (SMALL DEVICES) ========= */
-    
+
     @media screen and (max-width: 600px) {
         .experience__container {
             grid-template-columns: 1fr;
@@ -135,3 +272,12 @@
             padding: 2rem 1rem;
         }
     }
+
+    /* Debugging with Borders */
+    /* Uncomment these lines if you want to visually debug the alignment */
+
+    /*
+    .modal-logo, .modal-title {
+        border: 1px solid red; 
+    }
+    */
