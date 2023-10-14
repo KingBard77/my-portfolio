@@ -189,6 +189,22 @@
         flex-shrink: 0;
     }
 
+    
+    /* .modal-logo {
+        width: 80px;
+        height: 100px;
+        flex-shrink: 0;
+        background-color: transparent !important;  
+        border: none; 
+        outline: none; 
+        box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.15);
+        transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+        &:hover {
+            box-shadow: 8px 8px 15px rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px); 
+        }
+    } */
+
     .modal-title {
         font-size: var(--h3-font-size);
         font-family: var(--font-medium);

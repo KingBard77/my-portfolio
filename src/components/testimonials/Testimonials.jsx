@@ -38,7 +38,7 @@ const data = [
   },
   {
     avatar:AVTR4,
-    name:'Ahmad Haikal Zamri',
+    name:'Siti Nurhaliza',
     detail:'Project Manager',
     review: 'His work is very professional and he is very responsive. I will definitely work with him again.'
   },
